@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+.env
+*.db
+.coverage
+htmlcov/
+.pytest_cache/
+alembic/versions/*.py
+!alembic/versions/.gitkeep
+
+# Large files
+uploads/*
+!uploads/.gitkeep
+model_weights/*.pth
+model_weights/*.pt
+model_weights/*.bin
+!model_weights/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
